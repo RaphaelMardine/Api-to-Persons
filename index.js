@@ -3,7 +3,6 @@ const express = require('express')
 const app = express()
 const mongoose = require('mongoose')
 
-const Person = require('./models/Person')
 // forma de ler JSON //midlewares
 app.use(
   express.urlencoded({
